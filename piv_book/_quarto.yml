@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Particle Image Velocimetry for Students"
+  author: "Alex Liberzon (@alexlib)"
+  date: "8/2/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
